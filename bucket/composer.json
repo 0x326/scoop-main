@@ -1,10 +1,10 @@
 {
-    "version": "1.10.1",
+    "version": "1.10.13",
     "homepage": "https://getcomposer.org/",
     "description": "Dependency Manager for PHP",
     "license": "MIT",
-    "url": "https://getcomposer.org/download/1.10.1/composer.phar",
-    "hash": "1831f266580f221189dc04d4b58d7fc50c934ffc3a0eca89ecb4a53aa44867e2",
+    "url": "https://getcomposer.org/download/1.10.13/composer.phar",
+    "hash": "5ca7445cfd48dd27c5a84aa005a47b4d9fd91132313830609875df3a6973708f",
     "pre_install": [
         "@(",
         "    'if ($args.length -eq 1 -and ($args -eq \"selfupdate\" -or $args -eq \"self-update\")) { & scoop update composer }'",

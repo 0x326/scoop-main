@@ -1,10 +1,13 @@
 {
-    "homepage": "http://wixtoolset.org/",
+    "homepage": "https://wixtoolset.org/",
     "description": "Set of tools for windows installer creation.",
     "license": "MS-RL",
     "version": "3.11.2",
     "url": "https://github.com/wixtoolset/wix3/releases/download/wix3112rtm/wix311-binaries.zip",
     "hash": "2c1888d5d1dba377fc7fa14444cf556963747ff9a0a289a3599cf09da03b9e2e",
+    "env_set": {
+        "WixToolPath": "$dir"
+    },
     "bin": [
         "candle.exe",
         "dark.exe",
@@ -24,7 +27,7 @@
         "WixCop.exe"
     ],
     "checkver": {
-        "url": "http://wixtoolset.org/releases/",
+        "url": "https://wixtoolset.org/releases/",
         "re": "releases/v([\\d.]+)/stable"
     },
     "autoupdate": {

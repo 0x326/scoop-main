@@ -1,12 +1,12 @@
 {
-    "version": "0.6.0",
+    "version": "0.7.2",
     "description": "A Sudo for Windows",
     "homepage": "https://github.com/gerardog/gsudo",
     "license": "MIT",
-    "url": "https://github.com/gerardog/gsudo/releases/download/v0.6.0/gsudo.v0.6.0.zip",
-    "hash": "e2a9813e591f9aaeda8d8a908ab0e8c6bf8bfbdc5bf2741aef74683a538880cc",
+    "url": "https://github.com/gerardog/gsudo/releases/download/v0.7.2/gsudo.v0.7.2.zip",
+    "hash": "8083250e2c47cc4e4f4e71a82b7c8da84a9f20b26cb38462d6d34e00f0fda3a9",
+    "env_add_path": ".",
     "bin": [
-        "gsudo.exe",
         [
             "gsudo.exe",
             "sudo"

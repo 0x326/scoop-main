@@ -1,17 +1,16 @@
 {
-    "version": "4.22.1",
+    "version": "4.30.0",
     "description": "A platform for building proxies to bypass network restrictions.",
     "homepage": "https://www.v2ray.com/",
     "license": "MIT",
-    "persist": "config.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/v2ray/v2ray-core/releases/download/v4.22.1/v2ray-windows-64.zip",
-            "hash": "sha512:db716d8e4cd63aae777ddfb04f1a0d63233045fa5341d03cb31fc3158ffd341de4c26f90c964bb0d8f00d28b0aac5f1a4f2f19f768b0e2773f34aa0fb60ce3bc"
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.30.0/v2ray-windows-64.zip",
+            "hash": "sha512:51be572f8279e501abc916dc8da7d7a846be9c9d78550c926d21414020548f03545204dc31a8dbd54cf1387ca0bb1c7260816c1a4ad2469576d8f3f7c0eb18c9"
         },
         "32bit": {
-            "url": "https://github.com/v2ray/v2ray-core/releases/download/v4.22.1/v2ray-windows-32.zip",
-            "hash": "sha512:f76e2a31202f71cee33499d7b03f8131633cb0708fbe298b60fa21fa2d6fbd404de08a73f8ec0ec5973282d0fa6f3ebc9ed3cec8bbe05cf33faa13add0f86e6f"
+            "url": "https://github.com/v2fly/v2ray-core/releases/download/v4.30.0/v2ray-windows-32.zip",
+            "hash": "sha512:e900f5b2e67f98f65bbecc1a933af752618ae2fc97d2b9c731864ae2836c948341fdfff0ddccd81d9b6ec4ed8de7ae4ab1e060583c1f1af85199a3d9a13dd2b6"
         }
     },
     "bin": [
@@ -19,16 +18,17 @@
         "v2ray.exe",
         "wv2ray.exe"
     ],
+    "persist": "config.json",
     "checkver": {
-        "github": "https://github.com/v2ray/v2ray-core"
+        "github": "https://github.com/v2fly/v2ray-core"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/v2ray/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
             },
             "32bit": {
-                "url": "https://github.com/v2ray/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+                "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
             }
         },
         "hash": {

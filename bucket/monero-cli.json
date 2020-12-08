@@ -1,17 +1,17 @@
 {
     "homepage": "https://getmonero.org/",
     "description": "The secure, private, untraceable cryptocurrency (CLI)",
-    "version": "0.15.0.5",
+    "version": "0.17.0.1",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.15.0.5.zip",
-            "hash": "0286e21552d3fedfedbc7c7aba2f34c370ad4c21007a75fb67ac87994c5cec5a",
+            "url": "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.17.0.1.zip",
+            "hash": "f59a771efdd5e6bcd74668be9fe6798e1c2effeb38fce1639b24b307a95985cb",
             "extract_dir": "monero-x86_64-w64-mingw32"
         },
         "32bit": {
-            "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.15.0.5.zip",
-            "hash": "bdcc5af964b6271bbf05609edfc49093b690f15031b748dfb43ffe991ae9cc6e",
+            "url": "https://dlsrc.getmonero.org/cli/monero-win-x86-v0.17.0.1.zip",
+            "hash": "ac50eb3fb993fd496a1856b01655494b5fe2b0a57a01c432c0c06a996e90058e",
             "extract_dir": "monero-i686-w64-mingw32"
         }
     },

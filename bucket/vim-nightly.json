@@ -1,29 +1,32 @@
 {
-    "homepage": "https://www.vim.org",
+    "version": "8.2.1812",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
+    "homepage": "https://www.vim.org",
     "license": "Vim",
-    "version": "8.2.0423",
+    "suggest": {
+        "vimtutor": "vimtutor"
+    },
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0423/gvim_8.2.0423_x64.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.1812/gvim_8.2.1812_x64.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "9db30a232519c4ee21bdbc77209fca18548004d4b35584a1b259279e7a7d2936",
+                "7cf89014c5c3674e14c408b4bbcf616e587db22676f496c62b6f49f236555382",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.0423/gvim_8.2.0423_x86.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.1812/gvim_8.2.1812_x86.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "c773c8d79eaa98a0ed4b39de50235ffccb4264ba5748de7c08f35083ed0a1ca6",
+                "499998b2f8778a0eac308e12538ff0ce46d705097ab5b56efa3b0197344f5b4f",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
@@ -134,8 +137,5 @@
             }
         },
         "extract_dir": "vim\\vim$majorVersion$minorVersion"
-    },
-    "suggest": {
-        "vimtutor": "vimtutor"
     }
 }

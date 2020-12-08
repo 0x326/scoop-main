@@ -2,15 +2,15 @@
     "homepage": "https://imagemagick.org/",
     "description": "Create, edit, compose, and convert 200+ of bitmap images formats.",
     "license": "ImageMagick",
-    "version": "7.0.10-2",
+    "version": "7.0.10-33",
     "architecture": {
         "64bit": {
-            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-2-portable-Q16-x64.zip",
-            "hash": "498cad8469e43caeeb94fd58bb9026e5deaba9637a1fbfc4ea00530f13cc0ff6"
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-33-portable-Q16-x64.zip",
+            "hash": "6d75d272f8475af62a2b223ddb13129d9f034e9b7d971de408a352896425b9e1"
         },
         "32bit": {
-            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-2-portable-Q16-x86.zip",
-            "hash": "f8ff140a993aad00714d5a9ddfe18059a29350026fc77903128f0d77114ebf85"
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-33-portable-Q16-x86.zip",
+            "hash": "e023971f344be901d9bc9245be6a66dd02d6bca721e1de41efb4499f11db21d5"
         }
     },
     "depends": "ffmpeg",
@@ -24,7 +24,6 @@
             "imconvert"
         ],
         "dcraw.exe",
-        "hp2xx.exe",
         "identify.exe",
         "IMDisplay.exe",
         "magick.exe",

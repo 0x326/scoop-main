@@ -1,16 +1,16 @@
 {
+    "version": "2.1.0",
     "description": "Manage BareMetal Servers from Command Line (as easily as with Docker).",
     "homepage": "https://github.com/scaleway/scaleway-cli",
-    "version": "1.20",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v1.20/scw-windows-amd64.exe#/scw.exe",
-            "hash": "c50e3c498350a6eafdd84a241dfc2f2de00d39891de755e4c45ae514ec660df1"
+            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v2.1.0/scw-2-1-0-windows-x86_64.exe#/scw.exe",
+            "hash": "47882670c292e1e44382ddb8aa085e0c652781e448de2850e4639d8f8677434f"
         },
         "32bit": {
-            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v1.20/scw-windows-i386.exe#/scw.exe",
-            "hash": "83aa97822ccec83d0c886d7f2894aaf9938a7703a99e716beb912a44d8a3e6cd"
+            "url": "https://github.com/scaleway/scaleway-cli/releases/download/v2.1.0/scw-2-1-0-windows-386.exe#/scw.exe",
+            "hash": "6f38037044e318ebed31305102c1ab19bbde7faa6bb3a264281d764a9d68014b"
         }
     },
     "bin": "scw.exe",
@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/scaleway/scaleway-cli/releases/download/v$version/scw-windows-amd64.exe#/scw.exe"
+                "url": "https://github.com/scaleway/scaleway-cli/releases/download/v$version/scw-$dashVersion-windows-x86_64.exe#/scw.exe"
             },
             "32bit": {
-                "url": "https://github.com/scaleway/scaleway-cli/releases/download/v$version/scw-windows-i386.exe#/scw.exe"
+                "url": "https://github.com/scaleway/scaleway-cli/releases/download/v$version/scw-$dashVersion-windows-386.exe#/scw.exe"
             }
         },
         "hash": {

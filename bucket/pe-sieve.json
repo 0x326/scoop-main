@@ -1,16 +1,16 @@
 {
-    "homepage": "https://hshrzd.wordpress.com/pe-sieve/",
+    "version": "0.2.8.6",
     "description": "Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
+    "homepage": "https://hshrzd.wordpress.com/pe-sieve/",
     "license": "BSD-2-Clause",
-    "version": "0.2.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.5/pe-sieve64.exe#/pe-sieve.exe",
-            "hash": "e2044e45fcd3d7add1396dd9f9bbf366283fc8b499d696ef892a32fa6198dcd8"
+            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.8.6/pe-sieve64.exe#/pe-sieve.exe",
+            "hash": "7c0708eb856788d026e16481bf4ceb03d616a665d214edbd5ae6e1ae45ed1df7"
         },
         "32bit": {
-            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.5/pe-sieve32.exe#/pe-sieve.exe",
-            "hash": "4ff207e24250198b3d95b999465f66329f0d24747d07ec3f75f3afd2b5d7e931"
+            "url": "https://github.com/hasherezade/pe-sieve/releases/download/v0.2.8.6/pe-sieve32.exe#/pe-sieve.exe",
+            "hash": "1afaf95d048ad29a18d0b309791cd5385935d300291d9b44ab96e6d5389ca4e5"
         }
     },
     "bin": "pe-sieve.exe",

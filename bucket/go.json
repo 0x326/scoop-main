@@ -1,5 +1,5 @@
 {
-    "version": "1.14.1",
+    "version": "1.15.2",
     "homepage": "https://golang.org",
     "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
     "license": "BSD-3-Clause",
@@ -19,12 +19,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/go/go1.14.1.windows-amd64.zip",
-            "hash": "4bcc3bbdeba4b298120b4ea78e22b8c0fe93478b47dd7b84d70d97d2b264a0a6"
+            "url": "https://dl.google.com/go/go1.15.2.windows-amd64.zip",
+            "hash": "e72782cc6de233188c75b06849368826eaa1b8bd9e1cd766db9466a12b7138ca"
         },
         "32bit": {
-            "url": "https://dl.google.com/go/go1.14.1.windows-386.zip",
-            "hash": "66a6dcf28298ce2c3311487af0822adfec789e07bebc3b5cc6a75be9fadaef24"
+            "url": "https://dl.google.com/go/go1.15.2.windows-386.zip",
+            "hash": "f61e54e558e23bf2626a34e3ae2f8b73c2411a9ee29ceeb39ffb712695098138"
         }
     },
     "checkver": {
@@ -47,6 +47,6 @@
     "notes": [
         "Your GOROOT has been set to: $dir",
         "You can run 'go env GOROOT' to view this at any time.",
-        "\"$env:USERPROFILE\\go\\bin)\" has been added to your PATH."
+        "\"$env:USERPROFILE\\go\\bin\" has been added to your PATH."
     ]
 }

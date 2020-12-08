@@ -1,27 +1,27 @@
 {
+    "version": "0.1.21",
+    "description": "A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it",
     "homepage": "https://github.com/gruntwork-io/cloud-nuke",
     "license": "MIT",
-    "description": "A tool for cleaning up your cloud accounts by nuking (deleting) all resources within it",
-    "version": "0.1.16",
     "architecture": {
-        "32bit": {
-            "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v0.1.16/cloud-nuke_windows_386.exe#/cloud-nuke.exe",
-            "hash": "468fbbb0cea1b6d593bdc4390943d735e2ffc5ca7a5caed2b99dba60f5e419b1"
-        },
         "64bit": {
-            "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v0.1.16/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe",
-            "hash": "de9d78e685ede3b8847a6bb785d19bb92806d508a1207d4882a58091ed59e7bf"
+            "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v0.1.21/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe",
+            "hash": "9ffe69cd6c7e9439d3ce0a639ef585ca70991ce057ebe797e0d4d025ef974e61"
+        },
+        "32bit": {
+            "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v0.1.21/cloud-nuke_windows_386.exe#/cloud-nuke.exe",
+            "hash": "864d7343c059984eb2ed77b4b241467bae90e65f9147267f28523161291948de"
         }
     },
     "bin": "cloud-nuke.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_386.exe#/cloud-nuke.exe"
-            },
             "64bit": {
                 "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_amd64.exe#/cloud-nuke.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/gruntwork-io/cloud-nuke/releases/download/v$version/cloud-nuke_windows_386.exe#/cloud-nuke.exe"
             }
         },
         "hash": {

@@ -2,11 +2,11 @@
     "homepage": "https://github.com/pemistahl/grex",
     "description": "A regular expression generator",
     "license": "Apache-2.0",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pemistahl/grex/releases/download/v1.0.0/grex-v1.0.0-x86_64-pc-windows-msvc.zip",
-            "hash": "fccc02d631f9529498116d604eec8f38bb91a340db283dfb251e297410eed272"
+            "url": "https://github.com/pemistahl/grex/releases/download/v1.1.0/grex-v1.1.0-x86_64-pc-windows-msvc.zip",
+            "hash": "c35b1419af072c9318b02ce0ef70b93f833448c422d50ca609dee7abae07f68d"
         }
     },
     "bin": "grex.exe",

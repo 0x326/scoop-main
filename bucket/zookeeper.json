@@ -1,11 +1,11 @@
 {
     "homepage": "https://zookeeper.apache.org/",
     "description": "High-performance coordination service for distributed applications",
-    "version": "3.6.0",
+    "version": "3.6.2",
     "license": "Apache-2.0",
-    "url": "https://www.apache.org/dist/zookeeper/zookeeper-3.6.0/apache-zookeeper-3.6.0-bin.tar.gz",
-    "hash": "sha512:862c96572bc085fd6ac5ad55f07b77b2ec78f7eb510b6c190c60a35cb13d15a7de9274fd48f96ae52d559e93691a57b5bc6e4cd43a4d66154983757623401dc7",
-    "extract_dir": "apache-zookeeper-3.6.0-bin",
+    "url": "https://www.apache.org/dist/zookeeper/zookeeper-3.6.2/apache-zookeeper-3.6.2-bin.tar.gz",
+    "hash": "sha512:caff5111bb6876b7124760bc006e6fa2523efa54b99321a3c9cd8192ea0d5596abc7d70a054b1aac9b20a411407dae7611c7aba870c23bff28eb1643ba499199",
+    "extract_dir": "apache-zookeeper-3.6.2-bin",
     "bin": [
         "bin\\zkServer.cmd",
         "bin\\zkCli.cmd"
